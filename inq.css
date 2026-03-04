@@ -1,0 +1,12 @@
+/* フォームを囲む枠のスタイル調整 */
+.form-container {
+    position: relative;
+    width: 100%;
+    max-width: 640px; /* フォームが広がりすぎないように制限 */
+    margin: 0 auto;   /* 中央寄せ */
+}
+
+.form-container iframe {
+    width: 100%;      /* 親要素の幅いっぱいに広げる */
+    min-height: 800px; /* フォームの長さに合わせて調整してください */
+}
